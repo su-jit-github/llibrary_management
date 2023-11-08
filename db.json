@@ -1,0 +1,148 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "data": {},
+  "signup": [
+    {
+      "name": "Arabinda nayak ",
+      "email": "arabinda@gmail.com",
+      "pass": "arabinda11",
+      "phone": "7205119203",
+      "isAdmin": true,
+      "id": 1
+    },
+    {
+      "name": "soumya ranjan ",
+      "email": "soumya@gmail.com",
+      "pass": "soumya11",
+      "phone": "7205119203",
+      "isAdmin": false,
+      "id": 3
+    },
+    {
+      "name": "debasish behera",
+      "email": "debasis@gmail.com",
+      "pass": "debasis11",
+      "phone": "7205119203",
+      "isAdmin": "true",
+      "id": 4
+    },
+    {
+      "name": "satya ",
+      "email": "satya@gmail.com",
+      "pass": "123456789",
+      "phone": "147852369",
+      "isAdmin": "true",
+      "id": 5
+    },
+    {
+      "name": "test",
+      "email": "test@gmail.com",
+      "pass": "aravi",
+      "phone": "576",
+      "isAdmin": "true",
+      "id": 6
+    },
+    {
+      "name": "test",
+      "email": "test@gmail.com",
+      "pass": "aravi",
+      "phone": "576",
+      "isAdmin": "true",
+      "id": 7
+    }
+  ],
+  "currentuser": {
+    
+    "isLogin": false
+  },
+  "memberships": [
+    {
+      "firstName": "Arabinda",
+      "lastName": "Nayak",
+      "contact": "8917698267",
+      "adhar": "6548794569874587",
+      "address": "cuttact",
+      "startDate": "2023-10-10",
+      "endDate": "2023-10-19",
+      "MembershipTime": "two year",
+      "id": 1,
+      "isActive": true
+    },
+    {
+      "firstName": "Arabinda",
+      "lastName": "Nayak",
+      "contact": "7205119203",
+      "adhar": "329667050878",
+      "address": "Mangalpur",
+      "startDate": "2023-08-01",
+      "endDate": "2024-02-29",
+      "MembershipTime": "six months",
+      "id": 2,
+      "isActive": true
+    },
+    {
+      "firstName": "Arabinda",
+      "lastName": "Nayak",
+      "contact": "7205119203",
+      "adhar": "329667050878",
+      "address": "Mangalpur",
+      "startDate": "2023-08-01",
+      "endDate": "2024-02-29",
+      "MembershipTime": "six months",
+      "id": 3,
+      "isActive": true
+    },
+    {
+      "firstName": "Arabinda",
+      "lastName": "Nayak",
+      "contact": "7205119203",
+      "adhar": "329667050878",
+      "address": "Mangalpur",
+      "startDate": "2023-08-01",
+      "endDate": "2024-02-29",
+      "MembershipTime": "six months",
+      "id": 4,
+      "isActive": true
+    },
+    {
+      "firstName": "Abinash",
+      "lastName": "Nayak",
+      "contact": "7205119203",
+      "adhar": "329667050878",
+      "address": "Mangalpur",
+      "startDate": "2023-08-01",
+      "endDate": "2024-02-29",
+      "MembershipTime": "six months",
+      "id": 5,
+      "isActive": true
+    }
+  ],
+  "bookmovie": [
+    {
+      "bookMovie": "Life Divine",
+      "author": "Sri Aurbindo Ghosh",
+      "cost": "450",
+      "category": "life",
+      "procurement": "2023-10-10",
+      "type": "book",
+      "isAvailable": false,
+      "id": 1,
+      "issueDate": "2023-10-04",
+      "returndate": "2023-10-18",
+      "membersId": 1
+    }
+  ]
+}

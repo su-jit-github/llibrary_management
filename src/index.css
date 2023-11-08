@@ -1,0 +1,129 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  display: flex;
+  justify-content: center;
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+  margin: 1rem;
+font-size: 1.8rem;
+cursor: pointer;
+}
+a:hover {
+  color: #ff0000;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #000000;
+  cursor: pointer;
+  transition: border-color 0.25s;
+color: white;
+}
+button:hover {
+  border-color: #646cff;
+background-color: white;
+color:black;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+.navbar
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -70px;
+}
+.list1{
+  margin-left: 60rem;
+}
+input{
+  
+  margin: 20px;
+  padding: 20px;
+  width:20rem;
+  border-radius: 10px;
+}
+.signupform{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-self:center;
+}
+@media (prefers-color-scheme: light) and (max-width:700px) {
+  :root {
+    color: #1a2a37;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+  
+}
+.openDiv{
+  display: block;
+}
+.closeDiv{
+  display: none;
+}
+table,tr,td{
+  border: 1px solid red;
+}
+table{
+  margin-left: 40px;
+}
+h3{
+  cursor: pointer;
+}
+h3:hover{
+  font-size: 1.5rem;
+  transition: .5s ease-in-out;
+}
+.homehead{
+  font-size: 2rem;
+cursor: pointer;
+}
+.homehead:hover{
+  transition: 1s ease-in-out;
+  font-size: 3rem;
+  
+}
